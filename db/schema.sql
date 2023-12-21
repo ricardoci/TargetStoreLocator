@@ -6,6 +6,6 @@
 
 
 
-CREATE DATABASE tBuilding_db;
+CREATE DATABASE railway;
 
-
+USE railway;
