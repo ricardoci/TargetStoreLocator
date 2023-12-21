@@ -14,7 +14,7 @@ let sequelize;
       host: process.env.DB_HOST,
       dialect: 'mysql',
       port: process.env.DB_PORT,
-      database: process.env.DB_NAME
+      database: process.env.DB_NAME,
     }
   );
 
