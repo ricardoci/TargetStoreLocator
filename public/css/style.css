@@ -1,0 +1,356 @@
+/******************************************************************************
+STYLES FOR HERO SECTION ON HOMEPAGE
+******************************************************************************/
+* {
+  font-family: "Times New Roman", Serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.hero-hero {
+  height: 82vh;
+  background-color: #f4dfdf;
+  background-image: url("../img/skyline-animation.svg");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: bottom;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-logo {
+  width: 64px;
+}
+
+.hero-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.hero-desktop-navigation {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-centered {
+  width: 65%;
+  height: 70px;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #1f1f1f;
+  box-sizing: initial;
+  align-items: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f7f3f3;
+}
+
+/******************************************************************************
+STYLES NAVIGATION ON HOMEPAGE
+******************************************************************************/
+
+.hero-logo1 {
+  width: 105px;
+}
+
+.hero-text3 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hero-header {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-text4 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 5px;
+}
+
+.hero-container {
+  flex: 0 0 auto;
+  margin-top: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero-textinput {
+  width: 285px;
+  border-color: black;
+  border-style: double;
+  border-width: 2px;
+  margin-right: 10px;
+}
+
+.nav-button {
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  padding: 8px;
+  margin-right: 5px;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 56px;
+  flex-direction: column;
+  background-color: #cc0000;
+}
+
+.nav-button:hover {
+  color: white;
+  background-color: #000000;
+}
+
+.hero-get-started1 {
+  color: white;
+  width: 139px;
+  cursor: pointer;
+  display: flex;
+  padding: 8px;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 56px;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.hero-get-started1:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.nav-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/******************************************************************************
+STYLES SEARCH CARD SECTION ON HOMEPAGE
+******************************************************************************/
+#searchCard {
+  box-shadow: 5px 5px 10px 2px #1f1f1f;
+  border-radius: 65px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+#newForm {
+  margin-top: 30px;
+}
+
+#errorCard {
+  padding: 50px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 10px 2px #1f1f1f;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#cityStatePostalEl {
+  margin-bottom: 30px;
+}
+
+#loginSignup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#centerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#outlineBox {
+  border: 2px solid black;
+}
+
+/******************************************************************************
+  MEDIA QUERIES FOR HOMEPAGE
+  ******************************************************************************/
+@media (max-width: 991px) {
+  .hero-hero {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-desktop-navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-centered {
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-text4 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .hero-left {
+    margin-left: 5px;
+  }
+
+  .hero-logo1 {
+    width: 64px;
+  }
+
+  .hero-header {
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 781px) {
+  .hero-text4 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-hero {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-centered {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .hero-left {
+    margin-left: 5px;
+  }
+
+  .hero-right {
+    margin-right: 5px;
+  }
+
+  .hero-header {
+    justify-content: center;
+    padding-left: 10px;
+  }
+
+  .hero-text4 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .hero-get-started1 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 627px) {
+  .hero-text4 {
+    display: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .hero-logo {
+    margin-left: 0px;
+  }
+
+  .hero-icon {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-get-started1 {
+    width: 100%;
+  }
+}
+
+/******************************************************************************
+  FOOTER FOR HOMEPAGE
+******************************************************************************/
+
+footer {
+  width: 100%;
+}
+
+.footer-img {
+  width: 150px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+
+/* map */
+.hidden {
+  display: none;
+}
+
+.map-button {
+  background-color: #000000;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+#mapContainer {
+  width: 200px;
+  border-radius: 50px;
+  margin-right: 85px;
+  padding-top: 20px;
+}
+
+#map {
+  position: absolute;
+  margin-top: 285px;
+}
