@@ -8,4 +8,4 @@
 
 CREATE DATABASE tBuilding_db;
 
-USE tBuilding_db;
+
