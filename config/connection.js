@@ -8,12 +8,10 @@ let sequelize;
     process.env.DB_NAME,
     process.env.DB_USER,
     process.env.DB_PASSWORD,
-    process.env.DB_HOST,
-    process.env.DB_PORT,
     {
-      host: DB_HOST,
+      host: '127.0.0.1',
       dialect: 'mysql',
-      port: DB_PORT
+      port: 3306
     }
   );
 
